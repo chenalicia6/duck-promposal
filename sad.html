@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>🌷promposal</title>
+
+    <style>
+        body {
+            background-color: rgb(145, 185, 203);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            font-family: 'Courier New', Courier, monospace;
+            position: relative; /* Ensure child elements can use absolute positioning */
+            overflow: hidden; /* Prevent scrollbars from appearing */
+        }
+
+        .content-container {
+            display: flex;
+            align-items: center;
+            gap: 40px; /* Space between image and text */
+            padding: 0 40px; /* Add space on both sides of the screen */
+            max-width: 1200px; /* Limit the total width of the content */
+            z-index: 2; /* Ensure it appears above the confetti */
+        }
+
+        .duck-sad {
+            width: 600px;
+            height: auto;
+        }
+
+        .text {
+            font-size: 40px;
+            color: #333;
+            text-align: left;
+            max-width: 600px; /* Limit the width of the text */
+            word-wrap: break-word; /* Ensure long words wrap properly */
+        }
+    </style>
+</head>
+
+<body>
+    <div class="content-container">
+        <img src="https://media.tenor.com/rr-Tb17AsBoAAAAM/noonelovesme-tom-and-jerry.gif" alt="Sad Duck" class="duck-sad">
+        <div class="text">
+            <p>FINE. 😔 </p>
+            <p>I'll just waddle away then.</p>
+        </div>
+    </div>
+</body>
+
+</html>
