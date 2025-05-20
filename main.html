@@ -89,9 +89,7 @@
       </a>
     </div>
 
-    <a href = "sad.html">
-    <img src="images/no-button.png" alt="No Button" class="no-button" id="noButton">
-    </a>
+      <img src="images/no-button.png" alt="No Button" class="no-button" id="noButton">
   </div>
 
 
@@ -183,6 +181,11 @@
         updateNoButtonPosition();
       }
     });
+
+  // Redirect to sad.html when "No" button is clicked
+  noButton.addEventListener("click", () => {
+    window.location.href = "sad.html";
+  });
   </script>
 </body>
 
